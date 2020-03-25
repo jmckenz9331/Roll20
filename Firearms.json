@@ -185,7 +185,7 @@
       "value": 0,
       "weight": 10,
       "dmg1": "2d8",
-      "dmg1": "1d8",
+      "dmg2": "1d8",
       "dmgType": "Fire",
       "property": [
               "REL",
