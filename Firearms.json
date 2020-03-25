@@ -21,10 +21,9 @@
 			"name": "Palm Pistol",
 			"type": "R",
 			"weapon": true,
-      "firearm": true,
       "weaponCategory": "firearm",
 			"rarity": "none",
-      "value": 50,
+      "value": 5000,
       "weight": 1,
       "dmg1": "1d8",
       "dmgType": "P",
@@ -46,11 +45,219 @@
 			]
 		},
     {
+			"name": "Pistol",
+			"type": "R",
+			"weapon": true,
+      "weaponCategory": "firearm",
+			"rarity": "none",
+      "value": 15000,
+      "weight": 3,
+      "dmg1": "1d10",
+      "dmgType": "P",
+      "property": [
+              "REL",
+              "MIS"
+      ],
+      "range": "60/240",
+			"source": "MercerGun",
+			"entries": [
+              {
+                "type": "list",
+                "items": [
+                  "{@bold Reload}: 4 shots",
+                  "{@bold Misfire}: 1"
+                ]
+              }
+			]
+		},
+    {
+			"name": "Musket",
+			"type": "R",
+			"weapon": true,
+      "weaponCategory": "firearm",
+			"rarity": "none",
+      "value": 30000,
+      "weight": 10,
+      "dmg1": "1d12",
+      "dmgType": "P",
+      "property": [
+              "2H",
+              "REL",
+              "MIS"
+      ],
+      "range": "120/480",
+			"source": "MercerGun",
+			"entries": [
+              {
+                "type": "list",
+                "items": [
+                  "{@bold Reload}: 1 shot",
+                  "{@bold Misfire}: 2"
+                ]
+              }
+			]
+		},
+    {
+			"name": "Pepperbox",
+			"type": "R",
+			"weapon": true,
+      "weaponCategory": "firearm",
+			"rarity": "none",
+      "value": 25000,
+      "weight": 5,
+      "dmg1": "1d10",
+      "dmgType": "P",
+      "property": [
+              "REL",
+              "MIS"
+      ],
+      "range": "80/320",
+			"source": "MercerGun",
+			"entries": [
+              {
+                "type": "list",
+                "items": [
+                  "{@bold Reload}: 6 shot",
+                  "{@bold Misfire}: 2"
+                ]
+              }
+			]
+		},
+    {
+			"name": "Blunderbuss",
+			"type": "R",
+			"weapon": true,
+      "weaponCategory": "firearm",
+			"rarity": "none",
+      "value": 30000,
+      "weight": 10,
+      "dmg1": "2d8",
+      "dmgType": "P",
+      "property": [
+              "REL",
+              "MIS"
+      ],
+      "range": "15/60",
+			"source": "MercerGun",
+			"entries": [
+              {
+                "type": "list",
+                "items": [
+                  "{@bold Reload}: 1 shot",
+                  "{@bold Misfire}: 2"
+                ]
+              }
+			]
+		},
+    {
+			"name": "Bad News",
+			"type": "R",
+			"weapon": true,
+      "weaponCategory": "firearm",
+			"rarity": "none",
+      "value": 0,
+      "weight": 25,
+      "dmg1": "2d12",
+      "dmgType": "P",
+      "property": [
+              "2H",
+              "REL",
+              "MIS"
+      ],
+      "range": "200/800",
+			"source": "MercerGun",
+			"entries": [
+              {
+                "type": "list",
+                "items": [
+                  "{@bold Reload}: 1 shot",
+                  "{@bold Misfire}: 3"
+                ]
+              }
+			]
+		},
+    {
+			"name": "Hand Mortar",
+			"type": "R",
+			"weapon": true,
+      "weaponCategory": "firearm",
+			"rarity": "none",
+      "value": 0,
+      "weight": 10,
+      "dmg1": "2d8",
+      "dmg1": "1d8",
+      "dmgType": "Fire",
+      "property": [
+              "REL",
+              "MIS",
+              "EXP"
+      ],
+      "range": "30/60",
+			"source": "MercerGun",
+			"entries": [
+              {
+                "type": "list",
+                "items": [
+                  "{@bold Reload}: 1 shot",
+                  "{@bold Misfire}: 3"
+                ]
+              }
+			]
+		},
+    {
 			"name": "Palm Pistol Bullet",
 			"type": "A",
 			"rarity": "none",
-      "value": 0.1,
+      "value": 10,
       "weight": 0.05,
+      "source": "MercerGun"
+		},
+    {
+			"name": "Pistol Bullet",
+			"type": "A",
+			"rarity": "none",
+      "value": 20,
+      "weight": 0.05,
+      "source": "MercerGun"
+		},
+    {
+			"name": "Musket Ball",
+			"type": "A",
+			"rarity": "none",
+      "value": 25,
+      "weight": 0.08,
+      "source": "MercerGun"
+		},
+    {
+			"name": "Pepperbox Bullet",
+			"type": "A",
+			"rarity": "none",
+      "value": 20,
+      "weight": 0.05,
+      "source": "MercerGun"
+		},
+    {
+			"name": "Blunderbuss Shot",
+			"type": "A",
+			"rarity": "none",
+      "value": 100,
+      "weight": 0.08,
+      "source": "MercerGun"
+		},
+    {
+			"name": "Bad News Bullet",
+			"type": "A",
+			"rarity": "none",
+      "value": 200,
+      "weight": 0.06,
+      "source": "MercerGun"
+		},
+    {
+			"name": "Hand Mortar Shell",
+			"type": "A",
+			"rarity": "none",
+      "value": 1000,
+      "weight": 0.1,
       "source": "MercerGun"
 		}
 	],
@@ -77,6 +284,19 @@
               "name": "Misfire",
               "entries": [
                 "Whenever you make an attack roll with a firearm, and the dice roll is equal to or lower than the weapon’s Misfire score, the weapon misfires. The attack misses, and the weapon cannot be used again until you spend an action to try and repair it. To repair your firearm, you must make a successful Tinker’s Tools check (DC equal to 8 + misfire score). If your check fails, the weapon is broken and must be repaired out of combat at a quarter of the cost of the firearm. Creatures who use a firearm without being proficient increase the weapon’s misfire score by 1."
+              ]
+            }
+      ]
+    },
+    {
+      "abbreviation": "EXP",
+      "source": "MercerGun",
+      "entries": [
+            {
+              "type": "entries",
+              "name": "Explosive",
+              "entries": [
+                "Upon a hit, everything within 5ft of the target must make a Dexterity saving throw (DC equal to 8 + your proficiency bonus + your Dexterity modifier) or suffer 1d8 fire damage. If the weapon misses, the ammunition fails to detonate, or bounces away harmlessly before doing so."
               ]
             }
       ]
