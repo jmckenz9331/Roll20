@@ -30,7 +30,8 @@
       "property": [
               "L",
               "REL",
-              "MIS"
+              "MIS",
+              "Range"
       ],
       "range": "40/160",
 			"source": "MercerGun",
@@ -56,7 +57,8 @@
       "dmgType": "P",
       "property": [
               "REL",
-              "MIS"
+              "MIS",
+              "Range"
       ],
       "range": "60/240",
 			"source": "MercerGun",
@@ -83,7 +85,8 @@
       "property": [
               "2H",
               "REL",
-              "MIS"
+              "MIS",
+              "Range"
       ],
       "range": "120/480",
 			"source": "MercerGun",
@@ -109,7 +112,8 @@
       "dmgType": "P",
       "property": [
               "REL",
-              "MIS"
+              "MIS",
+              "Range"
       ],
       "range": "80/320",
 			"source": "MercerGun",
@@ -135,7 +139,8 @@
       "dmgType": "P",
       "property": [
               "REL",
-              "MIS"
+              "MIS",
+              "Range"
       ],
       "range": "15/60",
 			"source": "MercerGun",
@@ -162,7 +167,8 @@
       "property": [
               "2H",
               "REL",
-              "MIS"
+              "MIS",
+              "Range"
       ],
       "range": "200/800",
 			"source": "MercerGun",
@@ -185,12 +191,13 @@
       "value": 0,
       "weight": 10,
       "dmg1": "2d8",
-      "dmg2": "1d8",
+      "dmg1": "1d8",
       "dmgType": "Fire",
       "property": [
               "REL",
               "MIS",
-              "EXP"
+              "EXP",
+              "Range"
       ],
       "range": "30/60",
 			"source": "MercerGun",
