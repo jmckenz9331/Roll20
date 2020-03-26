@@ -46,7 +46,7 @@
 		},
     {
 			"name": "Pistol",
-			"type": "R",
+			"type": "Ranged Weapon",
 			"weapon": true,
       "weaponCategory": "firearm",
 			"rarity": "none",
@@ -72,7 +72,7 @@
 		},
     {
 			"name": "Musket",
-			"type": "R",
+			"type": "Ranged Weapon",
 			"weapon": true,
       "weaponCategory": "firearm",
 			"rarity": "none",
@@ -99,7 +99,7 @@
 		},
     {
 			"name": "Pepperbox",
-			"type": "R",
+			"type": "Ranged Weapon",
 			"weapon": true,
       "weaponCategory": "firearm",
 			"rarity": "none",
@@ -125,7 +125,7 @@
 		},
     {
 			"name": "Blunderbuss",
-			"type": "R",
+			"type": "Ranged Weapon",
 			"weapon": true,
       "weaponCategory": "firearm",
 			"rarity": "none",
@@ -151,7 +151,7 @@
 		},
     {
 			"name": "Bad News",
-			"type": "R",
+			"type": "Ranged Weapon",
 			"weapon": true,
       "weaponCategory": "firearm",
 			"rarity": "none",
@@ -178,7 +178,7 @@
 		},
     {
 			"name": "Hand Mortar",
-			"type": "R",
+			"type": "Ranged Weapon",
 			"weapon": true,
       "weaponCategory": "firearm",
 			"rarity": "none",
@@ -297,18 +297,6 @@
               "name": "Explosive",
               "entries": [
                 "Upon a hit, everything within 5ft of the target must make a Dexterity saving throw (DC equal to 8 + your proficiency bonus + your Dexterity modifier) or suffer 1d8 fire damage. If the weapon misses, the ammunition fails to detonate, or bounces away harmlessly before doing so."
-              ]
-            }
-      ]
-    },
-    {
-      "abbreviation": "RA",
-      "entries": [
-            {
-              "type": "entries",
-              "name": "Range",
-              "entries": [
-                "You can make ranged attacks only against targets within a specified range. If a ranged attack, such as one made with a spell, has a single range, you can’t attack a target beyond this range. Some ranged attacks, such as those made with a longbow or a shortbow, have two ranges. The smaller number is the normal range, and the larger number is the long range. Your attack roll has disadvantage when your target is beyond normal range, and you can’t attack a target beyond the long range."
               ]
             }
       ]
