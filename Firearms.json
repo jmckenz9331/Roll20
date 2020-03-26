@@ -19,7 +19,7 @@
 	"item": [
 		{
 			"name": "Palm Pistol",
-			"type": "R",
+			"type": "Ranged Weapon",
 			"weapon": true,
       "weaponCategory": "firearm",
 			"rarity": "none",
@@ -30,8 +30,7 @@
       "property": [
               "L",
               "REL",
-              "MIS",
-              "RA"
+              "MIS"
       ],
       "range": "40/160",
 			"source": "MercerGun",
@@ -57,8 +56,7 @@
       "dmgType": "P",
       "property": [
               "REL",
-              "MIS",
-              "RA"
+              "MIS"
       ],
       "range": "60/240",
 			"source": "MercerGun",
@@ -85,8 +83,7 @@
       "property": [
               "2H",
               "REL",
-              "MIS",
-              "RA"
+              "MIS"
       ],
       "range": "120/480",
 			"source": "MercerGun",
@@ -112,8 +109,7 @@
       "dmgType": "P",
       "property": [
               "REL",
-              "MIS",
-              "RA"
+              "MIS"
       ],
       "range": "80/320",
 			"source": "MercerGun",
@@ -139,8 +135,7 @@
       "dmgType": "P",
       "property": [
               "REL",
-              "MIS",
-              "RA"
+              "MIS"
       ],
       "range": "15/60",
 			"source": "MercerGun",
@@ -167,8 +162,7 @@
       "property": [
               "2H",
               "REL",
-              "MIS",
-              "RA"
+              "MIS"
       ],
       "range": "200/800",
 			"source": "MercerGun",
@@ -196,8 +190,7 @@
       "property": [
               "REL",
               "MIS",
-              "EXP",
-              "RA"
+              "EXP"
       ],
       "range": "30/60",
 			"source": "MercerGun",
